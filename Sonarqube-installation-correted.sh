@@ -1,4 +1,7 @@
-    sudo useradd sonar
+##Install sornarqube on Redhat servers
+##Author : Ibrehima Keita 
+## Devops engeneer US -Maryland 
+sudo useradd sonar
 # Grand sudo access to sonar user
 sudo echo "sonar ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/sonar
 sudo hostnamectl set-hostname sonar 
