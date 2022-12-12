@@ -15,7 +15,7 @@ sudo su - sonar
    
     
    12  sudo yum install java-11-openjdk-devel -y
-   13  sudo yum install java-11-openjdk-devel
+   
    14  sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.8.zip
    15  sudo unzip sonarqube-7.8.zip
    16  sudo rm -rf sonarqube-7.8.zip
